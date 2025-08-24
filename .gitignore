@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Python cache / build artifacts
+build/
+dist/
+.eggs/
+*.egg
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Logs / temp
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Data / artifacts (uncomment if large raw data should not be tracked)
+# data/
+# datasets/
+# outputs/
+# models/
+# checkpoints/
+
+# Model files
+*.h5
+*.hdf5
+*.ckpt
+
+# TensorBoard
+logs/
+
+# Pytest / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.cache/
+
+# MyPy / type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Notebooks: optional large output strip tool caches
+*.nbconvert.ipynb
+
+# System files
+*.swp
+*.swo
+
+# Local environment override files
+*.env.local
+.envrc
